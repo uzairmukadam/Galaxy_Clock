@@ -13,8 +13,6 @@ import com.uzitech.galaxyclock.ClockFace.DynamicClock;
 import com.uzitech.galaxyclock.ClockFace.PhotoFrame;
 import com.uzitech.galaxyclock.Fragment.ActionFragment;
 import com.uzitech.galaxyclock.Fragment.AppFragment;
-import com.uzitech.galaxyclock.Fragment.Clock2;
-import com.uzitech.galaxyclock.Fragment.ClockFragment;
 import com.uzitech.galaxyclock.R;
 
 public class PagerStateAdapter extends FragmentStateAdapter {

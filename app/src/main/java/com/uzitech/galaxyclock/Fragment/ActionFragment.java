@@ -19,7 +19,7 @@ public class ActionFragment extends Fragment {
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_clock, container, false);
+        View root = inflater.inflate(R.layout.fragment_action, container, false);
 
         return root;
     }

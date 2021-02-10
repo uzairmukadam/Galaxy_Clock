@@ -2,6 +2,13 @@
     <string name="app_name">Galaxy Clock</string>
 
     <string name="pref_data">Pref_Data</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="clock_mode_selection">Select clock mode</string>
+    <string name="clock_mode_1">AMOLED Mode</string>
+    <string name="clock_mode_2">Dynamic Mode</string>
+    <string name="clock_mode_3">Wallpaper Mode</string>
+
+    <string name="clock_type_selection">Select clock type</string>
+    <string name="clock_type_1">Digital Clock</string>
+    <string name="clock_type_2">Analog Clock</string>
 </resources>

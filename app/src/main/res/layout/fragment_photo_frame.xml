@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photoframe"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ClockFace.PhotoFrame">
@@ -26,19 +27,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <TextClock
+        <TextView
             android:id="@+id/day_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:format24Hour="EEEE"
+            android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <TextClock
+        <TextView
             android:id="@+id/date_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:format24Hour="dd MMM"
+            android:textColor="@android:color/white"
             android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

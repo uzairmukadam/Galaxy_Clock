@@ -28,20 +28,18 @@
         app:layout_constraintStart_toStartOf="@+id/clock_frame"
         app:layout_constraintTop_toBottomOf="@+id/clock_frame">
 
-        <TextClock
+        <TextView
             android:id="@+id/day_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:format24Hour="EEEE"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <TextClock
+        <TextView
             android:id="@+id/date_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:format24Hour="dd MMM"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
     </LinearLayout>
